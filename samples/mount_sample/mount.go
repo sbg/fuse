@@ -25,8 +25,8 @@ import (
 	"runtime"
 	"syscall"
 
-	"github.com/jacobsa/fuse"
-	"github.com/jacobsa/fuse/samples/flushfs"
+	"github.com/sbg/fuse"
+	"github.com/sbg/fuse/samples/flushfs"
 	"golang.org/x/net/context"
 )
 
@@ -117,7 +117,7 @@ func main() {
 	flag.Parse()
 
 	// Allow parallelism in the file system implementation, to help flush out
-	// bugs like https://github.com/jacobsa/fuse/issues/4.
+	// bugs like https://github.com/sbg/fuse/issues/4.
 	runtime.GOMAXPROCS(2)
 
 	// Grab the file to signal when ready.

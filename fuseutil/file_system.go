@@ -20,8 +20,8 @@ import (
 
 	"golang.org/x/net/context"
 
-	"github.com/jacobsa/fuse"
-	"github.com/jacobsa/fuse/fuseops"
+	"github.com/sbg/fuse"
+	"github.com/sbg/fuse/fuseops"
 )
 
 // An interface with a method for each op type in the fuseops package. This can

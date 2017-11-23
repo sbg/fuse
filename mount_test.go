@@ -10,9 +10,9 @@ import (
 
 	"golang.org/x/net/context"
 
-	"github.com/jacobsa/fuse"
-	"github.com/jacobsa/fuse/fuseops"
-	"github.com/jacobsa/fuse/fuseutil"
+	"github.com/sbg/fuse"
+	"github.com/sbg/fuse/fuseops"
+	"github.com/sbg/fuse/fuseutil"
 )
 
 ////////////////////////////////////////////////////////////////////////

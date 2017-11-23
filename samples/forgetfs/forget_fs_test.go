@@ -20,8 +20,8 @@ import (
 	"path"
 	"testing"
 
-	"github.com/jacobsa/fuse/samples"
-	"github.com/jacobsa/fuse/samples/forgetfs"
+	"github.com/sbg/fuse/samples"
+	"github.com/sbg/fuse/samples/forgetfs"
 	. "github.com/jacobsa/ogletest"
 )
 

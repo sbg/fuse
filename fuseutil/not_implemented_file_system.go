@@ -15,8 +15,8 @@
 package fuseutil
 
 import (
-	"github.com/jacobsa/fuse"
-	"github.com/jacobsa/fuse/fuseops"
+	"github.com/sbg/fuse"
+	"github.com/sbg/fuse/fuseops"
 	"golang.org/x/net/context"
 )
 

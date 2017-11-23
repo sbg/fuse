@@ -30,9 +30,9 @@ import (
 
 	"golang.org/x/sys/unix"
 
-	"github.com/jacobsa/fuse/fsutil"
-	"github.com/jacobsa/fuse/fusetesting"
-	"github.com/jacobsa/fuse/samples"
+	"github.com/sbg/fuse/fsutil"
+	"github.com/sbg/fuse/fusetesting"
+	"github.com/sbg/fuse/samples"
 	. "github.com/jacobsa/oglematchers"
 	. "github.com/jacobsa/ogletest"
 )
